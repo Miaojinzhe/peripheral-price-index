@@ -1639,6 +1639,26 @@ dialog[open] { animation: modal-in .28s var(--ease) both; }
 }
 .detail-share:hover { background: var(--blue); }
 .detail-share svg { width: 13px; height: 13px; }
+.detail-source {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 16px;
+  padding: 10px 12px;
+  color: var(--muted);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  font-size: 9.5px;
+  line-height: 1.7;
+}
+.detail-source span { display: block; }
+.detail-source a {
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  word-break: break-all;
+}
 .detail-note {
   margin-top: 15px;
   color: var(--muted-2);
@@ -2963,6 +2983,21 @@ function detailTemplate(product) {
     : '暂无可靠参考';
   const photo = IMAGE_DATA[product.id] || '';
   const photoAlt = `${product.brand} ${product.name} 产品图`;
+  const officialLink = [product.officialPage, product.officialSource]
+    .find(url => typeof url === 'string' && /^https?:\/\//.test(url)) || '';
+  const confidenceLabel = product.usedConfidence === 'high'
+    ? '高'
+    : product.usedConfidence === 'medium'
+      ? '中'
+      : '低';
+  const sourceBlock = (officialLink || product.usedNote)
+    ? `<div class="detail-source">
+        ${officialLink ? `<span>官方/资料页：<a href="${escapeHTML(officialLink)}" target="_blank" rel="noopener noreferrer">查看来源</a></span>` : ''}
+        ${product.officialNote ? `<span>价格说明：${escapeHTML(product.officialNote)}</span>` : ''}
+        ${product.usedNote ? `<span>二手说明：${escapeHTML(product.usedNote)}</span>` : ''}
+        ${!usedAvailable ? `<span>二手数据置信度：${confidenceLabel}</span>` : ''}
+      </div>`
+    : '';
 
   return `
     <div class="detail-close-wrap">
@@ -3041,6 +3076,7 @@ function detailTemplate(product) {
           分享这件设备的价格
         </button>
       </div>
+      ${sourceBlock}
       <p class="detail-note">官方价取官方发售价/建议零售价，不含平台补贴；二手价来自公开市场参考，不代表可成交报价。产品图来自品牌官方或公开产品页，版权归原品牌所有。最后核对：${longDate(DATA.meta.updatedAt)}。</p>
     </div>
   `;
