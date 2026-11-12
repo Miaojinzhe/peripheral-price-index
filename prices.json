@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-11-12",
-  "version": "1.2",
+  "version": "1.3",
   "currency": "CNY",
   "products": {
     "gprox-tkl-rapid": {
@@ -288,6 +288,54 @@
     },
     "qck-pro-control-l": {
       "official": 399,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "razer-reclusa-mini-65": {
+      "official": 1099,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "razer-atlas-pro": {
+      "official": 1199,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "basilisk-v4-pro": {
+      "official": 1399,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "dualsense-edge": {
+      "official": 1599,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "logitech-g522-lightspeed": {
+      "official": 1099,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "sennheiser-profile-usb": {
+      "official": 1199,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "dell-u2725qe": {
+      "official": 5349,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "obsbot-tiny3": {
+      "official": 2499,
       "used": null,
       "usedLow": null,
       "usedHigh": null
