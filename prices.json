@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-12",
+  "version": "1.0",
+  "currency": "CNY",
+  "products": {
+    "gprox-tkl-rapid": {
+      "official": 1699,
+      "used": 480,
+      "usedLow": 420,
+      "usedHigh": 550
+    },
+    "gpw5": {
+      "official": 1599,
+      "used": 1100,
+      "usedLow": 1000,
+      "usedHigh": 1200
+    },
+    "gprox2": {
+      "official": 1699,
+      "used": 650,
+      "usedLow": 560,
+      "usedHigh": 760
+    },
+    "xg27acdng": {
+      "official": 6999,
+      "used": 4500,
+      "usedLow": 4000,
+      "usedHigh": 5000
+    },
+    "xbox-wireless": {
+      "official": 459,
+      "used": 290,
+      "usedLow": 250,
+      "usedHigh": 330
+    },
+    "seiren-v3-pro": {
+      "official": 1999,
+      "used": 1150,
+      "usedLow": 1000,
+      "usedHigh": 1300
+    },
+    "mx-brio": {
+      "official": 1499,
+      "used": 800,
+      "usedLow": 700,
+      "usedHigh": 900
+    },
+    "g640": {
+      "official": 299,
+      "used": 120,
+      "usedLow": 90,
+      "usedHigh": 150
+    },
+    "huntsman-v3-pro-8k": {
+      "official": 1799,
+      "used": 1050,
+      "usedLow": 900,
+      "usedHigh": 1200
+    },
+    "viper-v4-pro": {
+      "official": 1299,
+      "used": 950,
+      "usedLow": 850,
+      "usedHigh": 1050
+    },
+    "blackshark-v2-pro": {
+      "official": 1299,
+      "used": 620,
+      "usedLow": 550,
+      "usedHigh": 700
+    },
+    "aw2725df": {
+      "official": 7999,
+      "used": 3800,
+      "usedLow": 3300,
+      "usedHigh": 4400
+    },
+    "dualsense": {
+      "official": 549,
+      "used": 350,
+      "usedLow": 300,
+      "usedHigh": 400
+    },
+    "mv7plus": {
+      "official": 1999,
+      "used": 950,
+      "usedLow": 850,
+      "usedHigh": 1100
+    },
+    "c920": {
+      "official": 699,
+      "used": 90,
+      "usedLow": 70,
+      "usedHigh": 120
+    },
+    "goliathus-v3": {
+      "official": 399,
+      "used": 180,
+      "usedLow": 150,
+      "usedHigh": 220
+    },
+    "azoth-x": {
+      "official": 1999,
+      "used": 1250,
+      "usedLow": 1100,
+      "usedHigh": 1400
+    },
+    "ec2-dw": {
+      "official": 1079,
+      "used": 680,
+      "usedLow": 600,
+      "usedHigh": 780
+    },
+    "cloud3-wireless": {
+      "official": 999,
+      "used": 480,
+      "usedLow": 420,
+      "usedHigh": 540
+    },
+    "redmi-g27q": {
+      "official": 1299,
+      "used": 900,
+      "usedLow": 800,
+      "usedHigh": 1000
+    },
+    "switch2-pro": {
+      "official": 499,
+      "used": 380,
+      "usedLow": 330,
+      "usedHigh": 430
+    },
+    "at2020usb-x": {
+      "official": 1199,
+      "used": 600,
+      "usedLow": 520,
+      "usedHigh": 700
+    },
+    "streamcam": {
+      "official": 999,
+      "used": 480,
+      "usedLow": 420,
+      "usedHigh": 550
+    },
+    "qck-heavy": {
+      "official": 219,
+      "used": 100,
+      "usedLow": 80,
+      "usedHigh": 130
+    },
+    "vgn-v98-pro": {
+      "official": 299,
+      "used": 200,
+      "usedLow": 170,
+      "usedHigh": 230
+    },
+    "g502x-plus": {
+      "official": 1099,
+      "used": 560,
+      "usedLow": 500,
+      "usedHigh": 640
+    },
+    "nova-pro-wireless": {
+      "official": 2999,
+      "used": 1500,
+      "usedLow": 1300,
+      "usedHigh": 1700
+    },
+    "ktc-27m2pro": {
+      "official": 3332,
+      "used": 2100,
+      "usedLow": 1850,
+      "usedHigh": 2400
+    },
+    "apex-4": {
+      "official": 449,
+      "used": 280,
+      "usedLow": 240,
+      "usedHigh": 330
+    },
+    "nt-usb-plus": {
+      "official": 1380,
+      "used": 780,
+      "usedLow": 680,
+      "usedHigh": 900
+    },
+    "insta360-link2": {
+      "official": 1398,
+      "used": 950,
+      "usedLow": 850,
+      "usedHigh": 1050
+    },
+    "artisan-zero": {
+      "official": 398,
+      "used": 260,
+      "usedLow": 220,
+      "usedHigh": 300
+    }
+  }
+}
