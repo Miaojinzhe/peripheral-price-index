@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "updatedAt": "2026-11-12",
-  "version": "1.0",
+  "version": "1.1",
   "currency": "CNY",
   "products": {
     "gprox-tkl-rapid": {
@@ -94,12 +94,6 @@
       "usedLow": 70,
       "usedHigh": 120
     },
-    "goliathus-v3": {
-      "official": 399,
-      "used": 180,
-      "usedLow": 150,
-      "usedHigh": 220
-    },
     "azoth-x": {
       "official": 1999,
       "used": 1250,
@@ -131,7 +125,7 @@
       "usedHigh": 430
     },
     "at2020usb-x": {
-      "official": 1199,
+      "official": 1180,
       "used": 600,
       "usedLow": 520,
       "usedHigh": 700
@@ -190,11 +184,101 @@
       "usedLow": 850,
       "usedHigh": 1050
     },
-    "artisan-zero": {
-      "official": 398,
-      "used": 260,
-      "usedLow": 220,
-      "usedHigh": 300
+    "g915x-lightspeed": {
+      "official": 1599,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "blackwidow-v4-pro": {
+      "official": 1899,
+      "used": 850,
+      "usedLow": 750,
+      "usedHigh": 950
+    },
+    "firefly-v2-pro": {
+      "official": 899,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "g840-kda": {
+      "official": 69,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "viper-v3-pro": {
+      "official": 1299,
+      "used": 490,
+      "usedLow": 440,
+      "usedHigh": 550
+    },
+    "gpro-x-superlight-2-dex": {
+      "official": 1199,
+      "used": 500,
+      "usedLow": 420,
+      "usedHigh": 620
+    },
+    "xbox-elite-series-2": {
+      "official": 1439,
+      "used": 460,
+      "usedLow": 390,
+      "usedHigh": 620
+    },
+    "flydigi-apex-5": {
+      "official": 599,
+      "used": 380,
+      "usedLow": 340,
+      "usedHigh": 430
+    },
+    "inzone-h9-ii": {
+      "official": 2299,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "razer-kraken-v4-pro": {
+      "official": 3199,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "shure-mv6": {
+      "official": 1398,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "hyperx-quadcast-2": {
+      "official": 669,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "pg27aqdp": {
+      "official": 7999,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "pg27ucdm": {
+      "official": 7999,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "facecam-mk2": {
+      "official": 816,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
+    },
+    "link-2c": {
+      "official": 998,
+      "used": null,
+      "usedLow": null,
+      "usedHigh": null
     }
   }
 }
